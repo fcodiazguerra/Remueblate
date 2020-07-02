@@ -48,7 +48,7 @@ label{
 	margin:0;
 }
 
-.header-most-top p {
+.entrada p {
     text-align: center;
     color: #fff;
     font-weight: bold;
@@ -57,10 +57,57 @@ label{
     background: #856a91;
 }
 
+.header {
+    padding: 10px 0 20px;
+}
+
+.logo {
+    text-align: center;
+}
+.logo span {
+    color: #856a91;
+}
+.logo h1 a {
+    color: #000;
+    font-size: 38px;
+		font-style: italic;
+		text-decoration: none;
+}
+
+.logo h1 a:hover {
+  	text-decoration:none;
+}
+
+.barra ul li {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    border-right: 1px solid rgba(18, 18, 18, 0.18);
+}
+
+.barra ul li:last-child{
+		border-right: none;
+}
+
+.barra ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.barra ul li span {
+    margin-right: 7px;
+    color: #856a91;
+    font-size: 20px;
+}
+
 
 @media(max-width: 1080px){
 
-	.header-most-top p {
+	.entrada p {
 			padding: 7px;
 			font-size: 15px;
 	}
@@ -69,7 +116,7 @@ label{
 
 @media(max-width: 991px){
 
-	.header-most-top p {
+	.entrada p {
 			padding: 6px;
 			font-size: 14px;
 	}
@@ -78,7 +125,7 @@ label{
 
 @media(max-width: 640px){
 
-	.header-most-top p {
+	.entrada p {
 			padding: 5px;
 			font-size: 12px;
 	}
@@ -87,7 +134,7 @@ label{
 
 @media(max-width: 384px){
 
-	.header-most-top p {
+	.entrada p {
 			padding: 6px;
 			font-size: 11px;
 			letter-spacing: 1px;
@@ -98,7 +145,7 @@ label{
 
 @media(max-width: 320px){
 
-	.header-most-top p {
+	.entrada p {
 			padding: 5px;
 			font-size: 10px;
 	}
